@@ -14,7 +14,7 @@ export default function Login() {
             Auto<span className="text-red-600">Log</span>
           </h2>
           <p className="text-zinc-500 text-xs mt-2 font-mono">
-            V.8.0.11 // MECHANICAL DATA ENTRY
+           MECHANICAL DATA ENTRY
           </p>
         </div>
 
@@ -22,12 +22,12 @@ export default function Login() {
         <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
           <div className="space-y-2">
             <label className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 ml-1">
-              Operator ID
+              Email/Username
             </label>
             <input 
               type="email" 
               className="w-full bg-zinc-900 border-2 border-zinc-800 rounded px-4 py-3 outline-none focus:border-red-600 transition-colors placeholder:text-zinc-700" 
-              placeholder="operator@autolog.io"
+              placeholder="email@example.com"
             />
           </div>
 
